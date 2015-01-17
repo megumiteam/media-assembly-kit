@@ -1,0 +1,3 @@
+[submodule "mak-rest-api"]
+	path = mak-rest-api
+	url = git@github.com:megumiteam/mak-rest-api.git
