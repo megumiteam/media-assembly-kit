@@ -1,0 +1,12 @@
+name: Media Assembly Kit on Github
+auto: true
+server: true
+markdown: redcarpet
+highlighter: pygments
+exclude: ["root"]
+github:
+    user: megumiteam
+    project: media-assembly-kit
+header:
+    title: Media Assembly Kit on Github
+    description: WordPress + AMIMOTO AMI + Media FrameWork + Technical Support.
