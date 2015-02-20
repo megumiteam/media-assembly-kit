@@ -12,21 +12,23 @@ The Content Management side is by WordPress, providing strong hosting in traffic
 
 ## Media Assembly Kit JSON REST API
 
-Media Assembly Kit REST API プラグインでは WordPress JSON REST API で提供されていないエンドポイントを提供します。
+In the Media Assembly Kit REST API plugin, we will provide an endpoint that has not been provided by the WordPress JSON REST API.
 
 {% assign place = "mak-rest-api" %}
 {% include link.html %}
 
 ## Media Assembly Kit Theme
 
-text.
+This is a hybrid theme combined with a WordPress theme.  
+Designs vary on the device, whether it’s mobile or desktop.  
+It retrieves values and settings of custom menus, widgets and others via JSON from WordPress and show them.
 
 {% assign place = "media-assembly-kit-theme" %}
 {% include link.html %}
 
 ## Media Assembly simple Template
 
-text.
+A simple theme that consists only of HTML + CSS + JavaScript (jQuery). Data acquisition and display are all by JavaScript. You may also change the layout and appearance of HTML or CSS to suit your preferences.
 
 {% assign place = "media-assembly-kit-simple-template" %}
 {% include link.html %}
