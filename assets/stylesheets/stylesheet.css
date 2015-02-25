@@ -59,7 +59,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin-top: 0em;
+  margin-bottom: 0.75em;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -72,12 +73,16 @@ h1 {
 }
 
 h2 {
-  padding-top: 16px;
   font-size: 32px;
+  margin-top: 2em;
+/*
+  padding-top: 16px;
   background: url('../images/bg_hr.png') repeat-x top;
+*/
 }
 
 h3 {
+  margin-top: 1em;
   font-size: 24px;
 }
 
@@ -304,6 +309,7 @@ Full-Width Styles
 }
 #banner ul li a:hover {
   background: #f2bb08;
+  text-decoration: none;
 }
 #banner ul li .fa {
 	margin-left: 5px;
@@ -341,12 +347,14 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .external-links {
 	list-style-type: none;
 	padding: 0;
+	margin: 2em 0 0 0;
 }
 .external-links li {
 	display: inline-block;
@@ -356,14 +364,14 @@ Full-Width Styles
 	display: block;
 	padding: 10px;
 	color: #fff;
-	background: #fac414;
+	background: #a4a4a4;
 	font-weight: 700;
-	box-shadow: 0 0 10px rgba(0,0,0,.5);
 	border-radius: 2px;
-	text-shadow: #997926 -1px -1px 0px;
+	text-shadow: #666 -1px -1px 0px;
 }
 .external-links li a:hover {
-  background: #f2bb08;
+  background: #9c9c9c;
+  text-decoration: none;
 }
 .external-links li .fa {
 	margin-right: 5px;
